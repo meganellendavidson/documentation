@@ -41,3 +41,35 @@ Software as a Service (SaaS)
 **On Premises Cloud:** AKA- Private Cloud. Deployed in a private data center using a cloud-like platform provided by vendors like VMWare.
 
 **Hybrid**: deployed with a mix of the previous two options using both provided like AWS alongside a cloud-like platform in a private data center.
+
+## AWS Global Infrastructure
+There are four primary elements of AWS Global Infracture:
+1. Region
+2. Availablity Zones
+3. Local Zones
+4. Edge Locations
+
+### AWS Regions
+An AWS Region represents a **cluster of data centers** in a specific geograpic location.
+There are currently (15/05/2023) 34 regions.
+
+#### Availablity Zones:
+One or more data center within a region. There are multiple availablity zones within each region.
+The purpose of an availability zones is to make sure there is never a scenario where an entire region would be down, as they have redundant power, networking, and connectivity. 
+There are currently (15/05/2023) 103 availability zones.
+
+#### Local Zone & Wavelength Zone
+AWS Local Zones place compute, storage, database, and other select AWS services closer to end-users. Each AWS local Zone location is an extension of an AWS Region. AWS Local Zones provide a high-bandwidth, secure connection between local workloads and those runing in the AWS Region, allowing you to seamlessly connect to the full range of in-region services through the same APIs and toolsets.
+
+Wavelength zones are AWS infrastructures deployments that embed AWS compute and storage services with communication service providers' (CSP) 5G networks, so appliciaton traffic from 5G devices reach application servers running in Wavelength Zones without leaving the telecommunications network.
+
+#### Edge Locations
+**Points of Presences:** elements of the AWS global infrastructure that exist outside of the AWS regions. These elements are located in or near populated areas, and specific AWS services use them to deliver content to end users as quickly as possible. Within the overall points of presence, there are two types of infrastructure: edge locations and regional edge caches.
+There are currently (15/05/2023) over 400 edge locations.
+
+Edge locations are used as nodes of a global content delivery network. There are specific services that utilize these locations including Amazon CloudFront and Amazon Route 53. 
+The primary purpose of edge locations is that is allows AWS to service content from locations closest to users.
+
+### Visualising AWS Global Infrastructure
+
+
