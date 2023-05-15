@@ -64,7 +64,7 @@ AWS Local Zones place compute, storage, database, and other select AWS services 
 Wavelength zones are AWS infrastructures deployments that embed AWS compute and storage services with communication service providers' (CSP) 5G networks, so appliciaton traffic from 5G devices reach application servers running in Wavelength Zones without leaving the telecommunications network.
 
 #### Edge Locations
-**Points of Presences:** elements of the AWS global infrastructure that exist outside of the AWS regions. These elements are located in or near populated areas, and specific AWS services use them to deliver content to end users as quickly as possible. Within the overall points of presence, there are two types of infrastructure: edge locations and regional edge caches.
+_Points of Presences:_ elements of the AWS global infrastructure that exist outside of the AWS regions. These elements are located in or near populated areas, and specific AWS services use them to deliver content to end users as quickly as possible. Within the overall points of presence, there are two types of infrastructure: edge locations and regional edge caches.
 There are currently (15/05/2023) over 400 edge locations.
 
 Edge locations are used as nodes of a global content delivery network. There are specific services that utilize these locations including Amazon CloudFront and Amazon Route 53. 
